@@ -1,0 +1,38 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@langchain/cohere": "^0.1.0",
+    "@langchain/community": "^0.2.15",
+    "@langchain/google-genai": "^0.0.21",
+    "@langchain/langgraph": "^0.0.25",
+    "@supabase/supabase-js": "^2.44.2",
+    "ai": "^3.2.15",
+    "cohere-ai": "^7.10.6",
+    "langchain": "^0.2.8",
+    "next": "14.2.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-toastify": "^10.0.5"
+  },
+  "overrides": {
+    "@langchain/core": "^0.2.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
