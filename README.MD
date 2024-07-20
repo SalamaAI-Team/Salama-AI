@@ -42,7 +42,8 @@ SalamaAI is an innovative health application designed to track vital health metr
 - [Firebase Account](https://firebase.google.com/)
 - [Langchain](https://www.langchain.com/)
 - [Gemini API](https://www.gemini.com/api)
-- [Llama Index](https://www.llamaindex.com/)
+- [Supabase](https://supabase.com/)
+
 
 ### Installation
 
