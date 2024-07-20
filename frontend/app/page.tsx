@@ -1,7 +1,10 @@
 import { ChatWindow } from "@/components/ChatWindow";
+import DefaultLayout from "@/components/DefaultLayout";
 
 export default function Home() {
+  
   const InfoCard = (
+    
     <div className="p-4 md:p-8 rounded bg-[#25252d] w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4">
         ▲ Next.js + LangChain.js 🦜🔗
@@ -67,14 +70,21 @@ export default function Home() {
         </li>
       </ul>
     </div>
+   // </DefaultLayout>
+    
   );
   return (
+    <DefaultLayout >    
     <ChatWindow
+    
       endpoint="api/chat"
-      emoji="🏴‍☠️"
-      titleText="Patchy the Chatty Pirate"
-      placeholder="I'm an LLM pretending to be a pirate! Ask me about the pirate life!"
+      emoji="👨‍⚕️"
+      titleText="Doctor Salama"
+      placeholder="I am an AI assistant looking to help you in your health journey with None communicable Diseases"
       emptyStateComponent={InfoCard}
     ></ChatWindow>
+    
+    </DefaultLayout>
   );
+  
 }
