@@ -96,7 +96,7 @@ SalamaAI is an innovative health application designed to track vital health metr
 
 - **Frontend**: Next.js, Tailwind CSS
 - **Backend**: Django, Firebase
-- **AI Models**: Langchain, Gemini API, Llama Index
+- **AI Models**: OpenAI,Gemini
 
 ### Folder Structure
 
@@ -110,7 +110,7 @@ salamaai/
 │   ├── app/                # Next.js app directory
 │   │   ├── agents/         # AI agents
 │   │   ├── ai_sdk/         # AI SDK integration
-│   │   ├── api/            # API handlers
+│   │   ├── api/            # API handlers for langchain
 │   │   ├── generative_ui/  # Generative UI components
 │   │   ├── retrieval/      # Data retrieval components
 │   │   ├── retrieval_agents/  # Retrieval agents
