@@ -123,6 +123,7 @@ salamaai/
 │   ├── components/         # Reusable UI components
 │   ├── data/               # Data storage
 │   ├── public/             # Public assets
+|   ├── .env.example        # Environment variables
 │   ├── .eslintrc.json      # ESLint configuration
 │   ├── .gitignore          # Git ignore file
 │   ├── next.config.mjs     # Next.js configuration
@@ -133,7 +134,7 @@ salamaai/
 │   └── tsconfig.json       # TypeScript configuration
 │
 ├── README.md               # This file
-└── .env                    # Environment variables
+
 ```
 
 ## Contributing
