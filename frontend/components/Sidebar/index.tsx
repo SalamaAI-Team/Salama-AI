@@ -11,6 +11,7 @@ import { getSession } from "next-auth/react";
 import { FaBookOpen } from "react-icons/fa6";
 import { FaUserDoctor } from "react-icons/fa6";
 import { TbReportAnalytics } from "react-icons/tb";
+import { BsGraphUp } from "react-icons/bs";
 
 import { BsCashStack } from "react-icons/bs";
 import { GiFarmTractor } from "react-icons/gi";
@@ -251,7 +252,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                     "bg-graydark dark:bg-meta-4"
                   }`}
                 >
-                  <BsCashStack />
+                  <BsGraphUp />
                   Tracking Tools
                 </Link>
               </li>
