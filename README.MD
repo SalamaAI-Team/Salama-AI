@@ -1,8 +1,10 @@
+### Updated README for SalamaAI
 
+---
 
 # SalamaAI
 
-SalamaAI is an innovative health application designed to track vital health metrics and provide personalized recommendations to help prevent non-communicable diseases (NCDs). By leveraging AI models, user inputs, and mobile sensors, SalamaAI empowers users to take control of their health and well-being.
+SalamaAI is an innovative health application designed to track vital health metrics and provide personalized recommendations to help prevent non-communicable diseases (NCDs). By leveraging AI models, user inputs, and web technologies, SalamaAI empowers users to take control of their health and well-being.
 
 ## Features
 
@@ -32,8 +34,11 @@ SalamaAI is an innovative health application designed to track vital health metr
 ## Getting Started
 
 ### Prerequisites
-- [NodeJs](https://nodejs.org/en/download/package-manager)
-- [Flutter](https://flutter.dev/docs/get-started/install)
+
+- [Node.js](https://nodejs.org/)
+- [Next.js](https://nextjs.org/)
+- [Django](https://www.djangoproject.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - [Firebase Account](https://firebase.google.com/)
 - [Langchain](https://www.langchain.com/)
 - [Gemini API](https://www.gemini.com/api)
@@ -47,27 +52,41 @@ SalamaAI is an innovative health application designed to track vital health metr
    cd salamaai
    ```
 
-2. **Install Dependencies**
+2. **Install Frontend Dependencies**
    ```bash
-   flutter pub get
+   cd frontend
+   npm install
    ```
 
-3. **Set Up Firebase**
-   - Follow the [Firebase setup guide](https://firebase.flutter.dev/docs/overview) to integrate Firebase with your Flutter app.
-   - Add your Firebase configuration files (`google-services.json` for Android and `GoogleService-Info.plist` for iOS).
+3. **Install Backend Dependencies**
+   ```bash
+   cd ../backend
+   pip install -r requirements.txt
+   ```
 
-4. **Configure APIs**
+4. **Set Up Firebase**
+   - Follow the [Firebase setup guide](https://firebase.flutter.dev/docs/overview) to integrate Firebase.
+   - Add your Firebase configuration files.
+
+5. **Configure APIs**
    - Obtain API keys for Langchain, Gemini API, and Llama Index.
    - Set up environment variables or add the keys directly in the app's configuration files.
 
 ### Running the App
 
-1. **Run the App**
+1. **Run the Backend**
    ```bash
-   flutter run
+   cd backend
+   python manage.py runserver
    ```
 
-2. **Using the App**
+2. **Run the Frontend**
+   ```bash
+   cd ../frontend
+   npm run dev
+   ```
+
+3. **Using the App**
    - Create an account or log in.
    - Start tracking your health metrics and receive personalized recommendations.
    - Upload images for analysis and engage with virtual coaching sessions.
@@ -75,29 +94,45 @@ SalamaAI is an innovative health application designed to track vital health metr
 
 ## Architecture
 
-- **Frontend**: Flutter/RectJs
-- **Backend**: Firebase
-- **AI Models**: Langchain, Gemini API,MedLM, 
+- **Frontend**: Next.js, Tailwind CSS
+- **Backend**: Django, Firebase
+- **AI Models**: Langchain, Gemini API, Llama Index
 
-### Folder Structure for mobile
+### Folder Structure
 
 ```
 salamaai/
 │
-├── android/                # Android specific files
-├── ios/                    # iOS specific files
-├── lib/                    # Main application code
-│   ├── models/             # Data models
-│   ├── screens/            # UI screens
-│   ├── services/           # API and service integrations
-│   ├── widgets/            # Reusable UI components
-│   └── main.dart           # Entry point of the application
+├── backend/                # Django backend
 │
-├── assets/                 # Images and other assets
-├── test/                   # Unit and widget tests
+├── frontend/               # Next.js frontend
+│   ├── .vscode/            # VS Code configuration
+│   ├── app/                # Next.js app directory
+│   │   ├── agents/         # AI agents
+│   │   ├── ai_sdk/         # AI SDK integration
+│   │   ├── api/            # API handlers
+│   │   ├── generative_ui/  # Generative UI components
+│   │   ├── retrieval/      # Data retrieval components
+│   │   ├── retrieval_agents/  # Retrieval agents
+│   │   ├── structured_output/ # Structured output components
+│   │   ├── favicon.ico     # Favicon
+│   │   ├── globals.css     # Global styles
+│   │   ├── layout.tsx      # Main layout
+│   │   └── page.tsx        # Main page
+│   ├── components/         # Reusable UI components
+│   ├── data/               # Data storage
+│   ├── public/             # Public assets
+│   ├── .eslintrc.json      # ESLint configuration
+│   ├── .gitignore          # Git ignore file
+│   ├── next.config.mjs     # Next.js configuration
+│   ├── package.json        # Project configuration
+│   ├── package-lock.json   # Package lock file
+│   ├── postcss.config.mjs  # PostCSS configuration
+│   ├── tailwind.config.ts  # Tailwind CSS configuration
+│   └── tsconfig.json       # TypeScript configuration
 │
 ├── README.md               # This file
-└── pubspec.yaml            # Project configuration
+└── .env                    # Environment variables
 ```
 
 ## Contributing
@@ -116,5 +151,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or suggestions, please reach out to us at [contact@example.com](mailto:bbjuius900@gmail.cm).
-
+For any questions or suggestions, please reach out to us at [SalamAaI](mailto:bbjulius900@gmail.com).
