@@ -69,7 +69,7 @@ SalamaAI is an innovative health application designed to track vital health metr
    - Add your Firebase configuration files.
 
 5. **Configure APIs**
-   - Obtain API keys for Langchain, Gemini API, and Llama Index.
+   - Obtain API keys for Google API,Cohere and supabase rename .env.example to .env.local in frontend.
    - Set up environment variables or add the keys directly in the app's configuration files.
 
 ### Running the App
