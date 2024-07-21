@@ -106,7 +106,7 @@ salamaai/
 │
 ├── backend/                # Django backend
 │
-├── frontend/               # Next.js frontend
+├── webapp/               # Next.js frontend
 │   ├── .vscode/            # VS Code configuration
 │   ├── app/                # Next.js app directory
 │   │   ├── agents/         # AI agents
