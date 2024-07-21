@@ -3,6 +3,9 @@
       {
         "source": "/(.*)",
         "destination": "/"
+      },
+      {
+        "framework": "nextjs"
       }
     ]
   }
