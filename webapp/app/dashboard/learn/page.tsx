@@ -1,4 +1,3 @@
-import "../app/globals.css"
 export const metadata  = {
   title: 'learn',
 };

@@ -1,6 +1,5 @@
-import "../app/globals.css"
 export const metadata  = {
-  title: 'Home',
+  title: 'tracking',
 };
 
 export default function Home(){
