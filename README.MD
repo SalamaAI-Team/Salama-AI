@@ -1,4 +1,5 @@
 ### Updated README for SalamaAI
+### the updated repo is https://github.com/NestorMugambi/salama-ai
 
 ---
 
