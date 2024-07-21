@@ -12,7 +12,7 @@ const DropdownUser = () => {
   const dropdown = useRef<any>(null);
   const [imageUrl, setImageUrl] = useState("/images/user.png");
   const [userName, setUserName] = useState("John Doe");
-  const [userRole, setUserRole] = useState("UX Designer");
+  const [userRole, setUserRole] = useState("");
   // close on click outside
   useEffect(() => {
     const clickHandler = ({ target }: MouseEvent) => {

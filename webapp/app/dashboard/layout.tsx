@@ -1,5 +1,4 @@
 "use client";
-import "jsvectormap/dist/css/jsvectormap.css";
 import {Toaster} from "react-hot-toast"
 import "@/css/satoshi.css";
 import "@/css/style.css";
