@@ -217,9 +217,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
               <li>
                 <Link
-                  href="/dashboard/reports"
+                  href="/dashboard/assesment"
                   className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("reports") && "bg-graydark dark:bg-meta-4"
+                    pathname.includes("assesment") && "bg-graydark dark:bg-meta-4"
                   }`}
                 >
                   <TbReportAnalytics />
@@ -232,9 +232,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
               <li>
                 <Link
-                  href="/dashboard/e-learning"
+                  href="/dashboard/learn"
                   className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("e-learning") &&
+                    pathname.includes("learn") &&
                     "bg-graydark dark:bg-meta-4"
                   }`}
                 >
@@ -246,9 +246,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
               <li>
                 <Link
-                  href="/dashboard/finances"
+                  href="/dashboard/tracking"
                   className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("finances") &&
+                    pathname.includes("tracking") &&
                     "bg-graydark dark:bg-meta-4"
                   }`}
                 >
@@ -259,9 +259,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
 
               <li>
                 <Link
-                  href="/dashboard/products"
+                  href="/dashboard/consultation"
                   className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("products") &&
+                    pathname.includes("consultation") &&
                     "bg-graydark dark:bg-meta-4"
                   }`}
                 >
@@ -271,9 +271,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
               </li>
               <li>
                 <Link
-                  href="/dashboard/products"
+                  href="/dashboard/diagnosis"
                   className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium text-bodydark1 duration-300 ease-in-out hover:bg-graydark dark:hover:bg-meta-4 ${
-                    pathname.includes("products") &&
+                    pathname.includes("diagnosis") &&
                     "bg-graydark dark:bg-meta-4"
                   }`}
                 >

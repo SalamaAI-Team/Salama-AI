@@ -5,7 +5,7 @@ export default function Home() {
   
   const InfoCard = (
     
-    <div className="p-4 md:p-8 rounded bg-blue-500 w-full max-h-[85%] overflow-hidden">
+    <div className="p-4 md:p-8 rounded bg-blue-500 dark:bg-boxdark-2 dark:text-bodydark1 w-full max-h-[85%] overflow-hidden">
       <h1 className="text-3xl md:text-4xl mb-4  text-bodydark1">
         Non Communicable Diseases NCD Helper 🏥
       </h1>
@@ -13,7 +13,7 @@ export default function Home() {
         <li className="text-2xl">
           📃
           <span className="ml-2  text-bodydark1">
-            Welcome to our AI assistant to help you with NCDs You can try some of the prompts to get you started as below{" "}
+            Welcome to our AI assistant to help you with NCDs try some of the prompts below to get you started {" "}
             {" "}
             
           </span>
@@ -59,7 +59,7 @@ export default function Home() {
       endpoint="api/chat"
       emoji="👨‍⚕️"
       titleText="Doctor Salama"
-      placeholder="I am an AI assistant looking to help you in your health journey with None communicable Diseases"
+      placeholder="I am a  None Communicable Diseases expert"
       emptyStateComponent={InfoCard}
     ></ChatWindow>
     

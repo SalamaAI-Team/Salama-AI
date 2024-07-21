@@ -102,38 +102,33 @@ SalamaAI is an innovative health application designed to track vital health metr
 ### Folder Structure
 
 ```
-salamaai/
-│
-├── backend/                # Django backend
-│
-├── frontend/               # Next.js frontend
-│   ├── .vscode/            # VS Code configuration
-│   ├── app/                # Next.js app directory
-│   │   ├── agents/         # AI agents
-│   │   ├── ai_sdk/         # AI SDK integration
-│   │   ├── api/            # API handlers for langchain
-│   │   ├── generative_ui/  # Generative UI components
-│   │   ├── retrieval/      # Data retrieval components
-│   │   ├── retrieval_agents/  # Retrieval agents
-│   │   ├── structured_output/ # Structured output components
-│   │   ├── favicon.ico     # Favicon
-│   │   ├── globals.css     # Global styles
-│   │   ├── layout.tsx      # Main layout
-│   │   └── page.tsx        # Main page
-│   ├── components/         # Reusable UI components
-│   ├── data/               # Data storage
-│   ├── public/             # Public assets
-|   ├── .env.example        # Environment variables
-│   ├── .eslintrc.json      # ESLint configuration
-│   ├── .gitignore          # Git ignore file
-│   ├── next.config.mjs     # Next.js configuration
-│   ├── package.json        # Project configuration
-│   ├── package-lock.json   # Package lock file
-│   ├── postcss.config.mjs  # PostCSS configuration
-│   ├── tailwind.config.ts  # Tailwind CSS configuration
-│   └── tsconfig.json       # TypeScript configuration
-│
-├── README.md               # This file
+Salama-AI/
+.vscode/                    // Directory for VS Code-specific settings
+
+webapp/                     // Main application directory
+  app/                      // Application-specific logic and pages
+    agents/                 // Directory for AI agent-related components 
+     
+    api/                    // Directory for API routes and handlers
+    dashboard/              // Directory for dashboard-related components 
+    types/                  // TypeScript type definitions
+
+  components/               // Reusable UI components
+  css/                      // CSS stylesheets
+  fonts/                    // Custom fonts
+  public/                   // Static files (images, etc.)
+  next.config.mjs           // Next.js configuration file
+  package-lock.json         // Automatically generated dependency tree lock file
+  package.json              // Project dependencies and scripts
+  postcss.config.mjs        // PostCSS configuration file
+  tailwind.config.ts        // Tailwind CSS configuration file
+  tsconfig.json             // TypeScript configuration file
+  .eslintrc.json            // ESLint configuration file
+  .env.example              // Example environment variables file
+  hooks/                    // Custom React hooks
+
+.gitignore                  // Git ignore file to exclude specified files and directories from version control
+README.md                   // Project documentation and instructions
 
 ```
 
