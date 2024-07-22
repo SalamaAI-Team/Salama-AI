@@ -1,4 +1,4 @@
-### Updated README for SalamaAI again
+### Updated README for SalamaAI 
 
 ---
 
